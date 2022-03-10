@@ -1,12 +1,11 @@
-import Navbar from "./components/Molecules/navbar";
 import GlobalStyle from './globalStyle';
+import Home from './pages/home';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-
-      <Navbar />
+      <Home />     
     </>
   );
 }
