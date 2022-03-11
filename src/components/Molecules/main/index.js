@@ -23,12 +23,12 @@ const Main = () => {
                     produto.map(item => (
                         <>
                             <>
-                                <S.Products>
+                                <S.Products className="searchProducts">
                                     <S.ImageProduct src={item.imageProduct} alt="imagem hamburger" />
                                     <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
                                     {/* <S.Describe>{item.describe}</S.Describe> */}
                                     <h1>{item.value}</h1>
-                                    <S.Button>Adicionar ao carrinho</S.Button>
+                                    <S.Button>Ver Produto</S.Button>
                                 </S.Products>
                             </>
                         </>

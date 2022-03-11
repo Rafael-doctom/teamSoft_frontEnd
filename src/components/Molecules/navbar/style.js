@@ -80,12 +80,13 @@ export const Input = styled.input`
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
     -moz-transition: all .3s ease-out;
-    letter-spacing: 0.33px;
+    letter-spacing: 0.03rem;
     -webkit-appearance:none;
     &:focus{
-        border: 1px solid #ED3237;
+        border: 1px solid #F09035;
         outline: 0;
     }
+   
 `;
 
 export const Profile = styled.div`
