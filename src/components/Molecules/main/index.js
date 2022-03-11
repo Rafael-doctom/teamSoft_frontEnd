@@ -29,11 +29,9 @@ const Main = () => {
                                     <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
                                     <S.Describe>{item.describe}</S.Describe>
                                     <h1>{item.value}</h1>
-                                    <h1>
-                                        {item.id}
-                                    </h1>
-                                    <S.Button>Ver Produto</S.Button>
-                                    <Link to="/produtos">produtos</Link> 
+                                    <Link to={`/produtos/${item.id}`}>
+                                        <S.Button>Ver Produtos {item.id}</S.Button>
+                                    </Link>
                                 </S.Products>
                             </>
                         </>
