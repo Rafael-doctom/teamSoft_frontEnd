@@ -10,16 +10,15 @@ import { Logo, ImageProfile, ImageCar } from '../../Atoms/images';
 
 const Navbar = () => {
 
-    // const [dados, setDados] = useState();
 
-    const [ setDados] = useState();
+    const [dados, setDados] = useState();
     const [inputValue, setInputValue] = useState('')
 
     useEffect(() => {
         fetch("./data.json")
             .then(response => response.json())
             .then(json => setDados(json))
-    }, []);
+    }, [dados]);
 
 
     const teste = (event) => {
