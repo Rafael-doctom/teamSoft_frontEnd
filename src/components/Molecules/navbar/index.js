@@ -10,7 +10,9 @@ import { Logo, ImageProfile, ImageCar } from '../../Atoms/images';
 
 const Navbar = () => {
 
+    // const [dados, setDados] = useState();
 
+    const [ setDados] = useState();
     const [inputValue, setInputValue] = useState('')
 
     useEffect(() => {
