@@ -1,72 +1,72 @@
 [
     {
         "id": 1,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
+        "titleProduct": "X-cheddar Picanha c/ Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/1.svg",
         "value": "R$31,99"
     },
     {
         "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
+        "titleProduct": "X-salada simples",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/2.png",
+        "value": "R$15,99"
+    },
+    {
+        "id": 3,
+        "titleProduct": "Oferta X-burger ",
+        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
+        "imageProduct": "/products/3.png",
+        "value": "R$12,99"
+    },
+    {
+        "id": 4,
+        "titleProduct": "X-frango duplo ",
+        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
+        "imageProduct": "/products/4.png",
         "value": "R$31,99"
     },
     {
-        "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
+        "id": 5,
+        "titleProduct": "Oferta X-burger ",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/3.png",
         "value": "R$31,99"
     },
     {
-        "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
+        "id": 6,
+        "titleProduct": "Oferta  X-cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/6.png",
         "value": "R$31,99"
     },
     {
-        "id": 2,
+        "id": 7,
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/7.png",
         "value": "R$31,99"
     },
     {
-        "id": 2,
+        "id": 8,
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/2.png",
         "value": "R$31,99"
     },
     {
-        "id": 2,
+        "id": 9,
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/1.svg",
         "value": "R$31,99"
     },
     {
-        "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
+        "id": 10,
+        "titleProduct": "Oferta X-frango + salada +  Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
-        "value": "R$31,99"
-    },
-    {
-        "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
-        "value": "R$31,99"
-    },
-    {
-        "id": 2,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "https://img.freepik.com/fotos-gratis/delicioso-hamburguer-fresco-isolado-no-fundo-branco-close-up_93675-104918.jpg?size=626&ext=jpg",
+        "imageProduct": "/products/5.png",
         "value": "R$31,99"
     }
 ]
