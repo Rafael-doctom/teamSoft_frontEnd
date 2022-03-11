@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
 
 import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
     Link
 } from "react-router-dom";
 
@@ -47,7 +44,6 @@ const Navbar = () => {
 
     return (
         <>
-            <Router>
 
                 <S.Navbar>
                     <S.Nav>
@@ -78,7 +74,6 @@ const Navbar = () => {
                         </S.Div>
                     </S.Nav>
                 </S.Navbar>
-            </Router>
 
         </>
     )

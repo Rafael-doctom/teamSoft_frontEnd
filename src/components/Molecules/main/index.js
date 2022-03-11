@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import * as S from './style';
 
@@ -32,6 +33,7 @@ const Main = () => {
                                         {item.id}
                                     </h1>
                                     <S.Button>Ver Produto</S.Button>
+                                    <Link to="/produtos">produtos</Link> 
                                 </S.Products>
                             </>
                         </>
