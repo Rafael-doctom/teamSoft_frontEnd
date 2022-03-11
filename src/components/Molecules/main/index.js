@@ -26,14 +26,18 @@ const Main = () => {
                                 <S.Products className="searchProducts">
                                     <S.ImageProduct src={item.imageProduct} alt="imagem hamburger" />
                                     <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
-                                    {/* <S.Describe>{item.describe}</S.Describe> */}
+                                    <S.Describe>{item.describe}</S.Describe>
                                     <h1>{item.value}</h1>
+                                    <h1>
+                                        {item.id}
+                                    </h1>
                                     <S.Button>Ver Produto</S.Button>
                                 </S.Products>
                             </>
                         </>
                     ))
                 }
+
             </S.Posts>
         </>
     )
