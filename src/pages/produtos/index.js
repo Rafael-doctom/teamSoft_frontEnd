@@ -7,10 +7,10 @@ const Produtos = () => {
 
     const [produto, setProducts] = useState();
 
-    const { id } = useParams();
+    let { id } = useParams();
 
     useEffect(() => {
-        fetch(`../../../../data.json`, {
+        fetch('../../../../data.json', {
             headers: {
                 Accept: "application/json"
             }
