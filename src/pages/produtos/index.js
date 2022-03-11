@@ -21,9 +21,8 @@ const Produtos = () => {
     return (
         <>
             <S.Posts>
-
                 {
-                    id == id ? (
+                    id === id ? (
                         <>
                             <h2>AQUI É O ID DO PRODUTO: {id}</h2>
                             {produto &&
