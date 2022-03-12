@@ -14,7 +14,7 @@ const MainRoutes = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="produtos/:id" element={<Produtos />} />
+                <Route path="produtos/:idPage" element={<Produtos />} />
             </Routes>
         </BrowserRouter>,
         document.getElementById("root")

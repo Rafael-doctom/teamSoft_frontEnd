@@ -6,10 +6,11 @@ import DataJson from '../../data/dataProducts.json';
 
 const MainProducts = () => {
 
-    let { id } = useParams();
+    var { idPage } = useParams();
 
-    var JSON = DataJson;
-    var result = JSON.find(item => item.id == id);
+
+    var ID = Number(idPage)
+    var result = DataJson.find(item => item.id === ID);
     console.log('Error:', result);
 
     return (
