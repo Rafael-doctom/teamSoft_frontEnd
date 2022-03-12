@@ -9,8 +9,7 @@ const MainProducts = () => {
     let { id } = useParams();
 
     var JSON = DataJson;
-    var buscarId = id;
-    const result = JSON.find(item => item.id === buscarId);
+    var result = JSON.find(item => item.id == id);
     console.log('Error:', result);
 
     return (
