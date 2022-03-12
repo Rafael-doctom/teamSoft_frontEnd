@@ -10,7 +10,7 @@ const MainProducts = () => {
 
     var JSON = DataJson;
     var buscarId = id;
-    const result = JSON.find(item => item.id == buscarId);
+    const result = JSON.find(item => item.id === buscarId);
     console.log('Error:', result);
 
     return (
