@@ -8,13 +8,15 @@ const Main = () => {
     const [produto, setProducts] = useState()
 
     useEffect(() => {
-        fetch('./data.json', {
+        fetch('/data.json', {
             headers: {
                 Accept: "application/json"
             }
         }).then(response => response.json()).then(json => setProducts(json))
     }, [])
 
+
+   
 
     return (
         <>
