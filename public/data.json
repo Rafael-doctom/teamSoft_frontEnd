@@ -4,8 +4,8 @@
         "titleProduct": "Oferta X-cheddar Picanha c/ Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/1.svg",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
+        "value": "R$18,99",
+        "beforeValue": "21,99"
     },
     {
         "id": 2,
@@ -21,30 +21,30 @@
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/3.png",
         "value": "R$12,99",
-        "beforeValue": "16,99"
+        "beforeValue": "15,99"
     },
     {
         "id": 4,
         "titleProduct": "X-frango duplo ",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/4.png",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
+        "value": "R$11,99",
+        "beforeValue": "16,45"
     },
     {
         "id": 5,
         "titleProduct": "Oferta X-burger ",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/3.png",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
+        "value": "R$9,99",
+        "beforeValue": "10,99"
     },
     {
         "id": 6,
         "titleProduct": "Oferta  X-cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/6.png",
-        "value": "R$31,99",
+        "value": "R$11,99",
         "beforeValue": "16,99"
     },
     {
@@ -52,7 +52,7 @@
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/7.png",
-        "value": "R$31,99",
+        "value": "R$12,99",
         "beforeValue": "16,99"
     },
     {
@@ -60,15 +60,15 @@
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/2.png",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
+        "value": "R$12,99",
+        "beforeValue": "15,99"
     },
     {
         "id": 9,
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/1.svg",
-        "value": "R$31,99",
+        "value": "R$14,99",
         "beforeValue": "16,99"
     },
     {
@@ -76,7 +76,7 @@
         "titleProduct": "Oferta X-frango + salada +  Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
         "imageProduct": "/products/5.png",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
+        "value": "R$12,99",
+        "beforeValue": "13,99"
     }
 ]
