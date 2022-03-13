@@ -1,4 +1,6 @@
-import styled from "styled-components";
+// import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
 
 export const Posts = styled.div`
     display:flex;
@@ -170,3 +172,141 @@ export const Buttons = styled.button`
     background:transparent;
     padding:0 1rem;
 `;
+
+export const AsRequest = styled.div`
+    margin-top:15px;
+`;
+
+
+export const RequestedInfo = styled.div`
+    width: 350px;
+    height: 55px;
+    background: rgba(253, 215, 14, 0.2);
+    display:flex;
+    flex-direction:column;
+    padding:8px ;
+`;
+
+
+export const DivCheck = styled.div`
+    width: 350px;
+    height: 55px;
+    // background: white;
+    display:flex;
+    flex-direction:column;
+    padding:8px ;
+    margin-top:5px;
+    position:relative;
+`;
+
+export const RequestQuestion = styled.span`
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4E4E4E;
+    padding-top:8px;
+`;
+
+export const Label = styled.label`
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #4E4E4E;
+    padding-top:8px;
+`;
+
+const Input = styled.input`
+  height: 0;
+  width: 0;
+  opacity: 0;
+  z-index: -1;
+`;
+
+const popIn = keyframes`
+    from {
+    opacity: 0;
+        transform: translate(-50%, -50%) scale(1.5) ; 
+    }
+    to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1) ;*/
+    }
+`;
+
+const Label2 = styled.label`
+  position: relative;
+  display: inline-block;
+  cursor: ${(props) => (props.disabled ? "not-allowed" : "pointer")};
+  margin: 0.6em 1em;
+  font-size: 24px;
+  position:absolute;
+  right:0px;
+`;
+
+const Indicator = styled.div`
+  border: 1px solid #F09035;
+  border-radius: 20px;   
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+//   left: -1.5em;
+//   ${Label}:hover & {
+//     background: #ccc;
+//   }
+
+  &::after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+
+  ${Input}:checked + &::after {
+    display: block;
+    // border: solid #263238;
+    background-color: #F09035;
+    border-radius: 10px;
+    width:10px;
+    height: 10px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-name: ${popIn};
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+  }
+
+  ${Input}:disabled + & {
+    pointer-events: none;
+    opacity: 0.6;
+    background: #e6e6e6;
+  }
+`;
+
+export default function RadioButton({
+  value,
+  onChange,
+  name,
+  id,
+  label,
+  disabled,
+  checked
+}) {
+  return (
+    <Label2 htmlFor={id} disabled={disabled}>
+      {label}
+      <Input
+        type="radio"
+        role="radio"
+        name={name}
+        value={value}
+        disabled={disabled}
+        onChange={onChange}
+        checked={checked}
+      />
+      <Indicator />
+    </Label2>
+  );
+}
