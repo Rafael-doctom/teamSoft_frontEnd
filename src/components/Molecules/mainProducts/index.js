@@ -11,10 +11,15 @@ const MainProducts = ({ checked, ...props }) => {
     var { idPage } = useParams();
     const [radioValue1, setRadio1] = useState(false);
     const [radioValue2, setRadio2] = useState(false);
+    const [modal, setModal] = useState(false);
 
     var ID = Number(idPage)
     var result = DataJson.find(item => item.id === ID);
     console.log('Error:', result);
+
+    const handleClickProductsAdded = () => {
+        setModal(!modal)
+    }
 
     return (
         <>
@@ -56,7 +61,7 @@ const MainProducts = ({ checked, ...props }) => {
                                     -
                                 </S.Buttons>
                                 <span>
-                                    2
+                                    0
                                 </span>
                                 <S.Buttons>
                                     +
@@ -71,7 +76,7 @@ const MainProducts = ({ checked, ...props }) => {
                                     -
                                 </S.Buttons>
                                 <span>
-                                    2
+                                    1
                                 </span>
                                 <S.Buttons>
                                     +
@@ -86,7 +91,7 @@ const MainProducts = ({ checked, ...props }) => {
                                     -
                                 </S.Buttons>
                                 <span>
-                                    2
+                                    0
                                 </span>
                                 <S.Buttons>
                                     +
@@ -120,7 +125,6 @@ const MainProducts = ({ checked, ...props }) => {
                                     }}
                                 />
                             </S.DivCheck>
-
                         </S.AsRequest>
                     </S.Card>
                     <S.DivSubmit>
@@ -129,17 +133,39 @@ const MainProducts = ({ checked, ...props }) => {
                                 -
                             </S.ButtonsValue>
                             <span>
-                                2
+                                0
                             </span>
                             <S.ButtonsValue>
                                 +
                             </S.ButtonsValue>
                         </S.ButtonsAddWithProduct>
-                        <S.ButtonAdded>Adicionar</S.ButtonAdded>
+                        <S.ButtonAdded onClick={handleClickProductsAdded}>Adicionar</S.ButtonAdded>
                     </S.DivSubmit>
                 </S.Somar>
 
             </S.Posts>
+            {
+                modal ? (
+                    <>
+                        <S.Modal>
+                            <S.TitleSucess>Adicionado com sucesso</S.TitleSucess>
+                            <S.IngredientTitleAdded>{result.titleProduct}</S.IngredientTitleAdded>
+                            <S.ListIngredients>Ingredientes:</S.ListIngredients>
+                            <S.List>
+                                <li>
+                                    Queijo cheddar
+                                </li>
+                                <li>
+                                    Cebola crispy
+                                </li>
+                                <li>
+                                    Cebola crispy
+                                </li>
+                            </S.List>
+                        </S.Modal>
+                    </>
+                ) : null
+            }
         </>
     )
 }

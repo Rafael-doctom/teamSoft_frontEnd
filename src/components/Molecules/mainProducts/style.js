@@ -20,8 +20,9 @@ export const TitleProduct = styled.span`
     font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    color: #4E4E4E;
     margin-top:10px;
+    color: #4E4E4E;
+   
 `;
 
 export const Describe = styled.span`
@@ -127,6 +128,16 @@ export const ButtonAdded = styled.button`
     border-radius: 8px;
     color:white;
     font-weight:600;
+    cursor:pointer;
+    
+    &:hover{
+      background:red;
+      transition: all .3s ease-out;
+      -webkit-transition: all .3s ease-out;
+      -moz-transition: all .3s ease-out;
+      letter-spacing: 0.02rem;
+      -webkit-appearance:none;
+  }
 `;
 
 export const ButtonsValue = styled.button`
@@ -193,7 +204,7 @@ export const IngredientTitle = styled.span`
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    color: #4E4E4E;
+      
 `;
 
 export const ValueIngredient = styled.span`
@@ -362,3 +373,60 @@ export default function RadioButton({
     </Label2>
   );
 }
+
+export const Modal = styled.div`
+  background:white;
+  top:80px;
+  right:150px;
+  position:absolute;
+  width:280px;
+  height:200px;
+  border-radius:8px;
+  border: 0;
+  box-sizing: border-box;
+  -webkit-box-shadow: 2px 3px 21px -6px #000000; 
+  box-shadow: 2px 3px 21px -6px #000000;
+`;
+
+export const TitleSucess = styled.span`
+  display:block;
+  background: #F09035;
+  color:white;
+  font-size:1.25rem;
+  padding:10px 0.44rem;
+  text-align:left;
+  border:0;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  font-weight:600;
+`;
+
+export const IngredientTitleAdded = styled.span`
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    display:block;
+    color: red;
+    margin:10px 0.44rem;
+`;
+
+export const ListIngredients = styled.span`
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display:block;
+    color: #4E4E4E;
+    margin:10px 0.44rem;
+`;
+
+export const List = styled.ul`
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    display:block;
+    color: #4E4E4E;
+    // margin:10px 0.44rem;
+`;
