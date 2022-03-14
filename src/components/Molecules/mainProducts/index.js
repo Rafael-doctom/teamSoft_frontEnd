@@ -123,8 +123,22 @@ const MainProducts = ({ checked, ...props }) => {
 
                         </S.AsRequest>
                     </S.Card>
-
+                    <S.DivSubmit>
+                        <S.ButtonsAddWithProduct>
+                            <S.ButtonsValue>
+                                -
+                            </S.ButtonsValue>
+                            <span>
+                                2
+                            </span>
+                            <S.ButtonsValue>
+                                +
+                            </S.ButtonsValue>
+                        </S.ButtonsAddWithProduct>
+                        <S.ButtonAdded>Adicionar</S.ButtonAdded>
+                    </S.DivSubmit>
                 </S.Somar>
+
             </S.Posts>
         </>
     )
