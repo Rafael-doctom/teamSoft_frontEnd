@@ -70,13 +70,5 @@
         "imageProduct": "/products/1.svg",
         "value": "R$31,99",
         "beforeValue": "16,99"
-    },
-    {
-        "id": 10,
-        "titleProduct": "Oferta X-frango + salada +  Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/5.png",
-        "value": "R$31,99",
-        "beforeValue": "16,99"
     }
 ]
