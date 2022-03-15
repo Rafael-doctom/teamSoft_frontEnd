@@ -124,6 +124,11 @@ export const ImageProduct = styled.img`
     height:30vh;
     background-size:cover;
     width:18vw;
+
+    @media (max-width:768px){
+        width:30vw;
+        height:25vh;
+    }
 `;
 
 export const Button = styled.button`

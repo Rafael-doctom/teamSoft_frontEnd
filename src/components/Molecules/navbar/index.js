@@ -45,11 +45,8 @@ const Navbar = () => {
     return (
         <>
             <S.Container>
-
                 <S.Navbar>
-
                     <S.Nav>
-
                         <Link to="/">
                             <S.Logo src={Logo} alt="Logo1" />
                         </Link>

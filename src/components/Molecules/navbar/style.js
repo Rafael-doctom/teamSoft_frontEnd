@@ -2,25 +2,11 @@ import styled from 'styled-components';
 import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
-    width:100%;
+    // width:100%;
     background: #F4F4F4;
+    // background: gray;
+    // padding-right:1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
-
-    @media (max-width:1440px){
-
-    }
-
-    @media (max-width:1024px){
-
-    }
-
-    @media (max-width:768px){
-
-    }
-    @media (max-width:425px){
-
-    }
-
 `;
 
 export const Navbar = styled.div`
@@ -29,18 +15,20 @@ export const Navbar = styled.div`
     margin:0 auto;
     display:block;
     // background: #F4F4F4;
+    // background: red;
 
     @media (max-width:1440px){
-        width:90vw;
+        // width:93vw;
     }
 
 
     @media (max-width:768px){
-        // width:95vw;
+        // width:55vw;
+        margin:0;
     }
 
     @media (max-width:425px){
-        
+        // width:10vw;
     }
 
 `;
@@ -73,22 +61,23 @@ export const Logo = styled.img`
     }
 
     @media (max-width:768px){
-        width: 100px;
+        width: 160px;
         height: 70.2px;
     }
-    
-    
 
 `;
 
 export const Div = styled.div`
     display:flex;
-    margin-left:7vw;
     align-items:center;
-
+    
     @media (max-width:768px){
-        margin-left:0;
-
+        // margin-left:7vw;
+        width:50vw;
+    }
+    @media (max-width:425px){
+        margin-left:7vw;
+        width:95vw;
     }
 `;
 
@@ -160,7 +149,7 @@ export const Input = styled.input`
     }
 
     @media (max-width:768px){
-        width: 20.7vw;
+        display:none;
     }
    
 `;
