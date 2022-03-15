@@ -34,13 +34,11 @@ export const Posts = styled.div`
     
     @media (max-width:425px){
         width:120vw;
-        background:red;
         flex-wrap:wrap;
     }
 
     @media (max-width:375px){
         width:140vw;
-        background:red;
         flex-wrap:wrap;
     }
 `;
@@ -55,7 +53,6 @@ export const Products = styled.div`
     // justify-content:center;
     align-items:center;
     margin:0 auto;
-    background:gray;
     height:60vh;
 
 
@@ -68,7 +65,6 @@ export const Products = styled.div`
     @media (max-width:425px){
         text-align:left;
         width:60vw;
-        background:green;
         height:70vh;
     }
 
