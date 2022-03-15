@@ -81,6 +81,10 @@ export const Div = styled.div`
         margin-left:7vw;
         width:95vw;
     }
+    @media (max-width:320px){
+        margin-left:10vw;
+        width:120vw;
+    }
 `;
 
 export const DeliveryInfos = styled.div`
