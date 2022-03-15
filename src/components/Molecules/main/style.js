@@ -24,7 +24,6 @@ export const Posts = styled.div`
     flex-wrap:wrap;
     width:85vw;
     margin:2rem auto;
-
     @media (max-width:1440px){
         width:95vw;
     }
@@ -35,6 +34,12 @@ export const Posts = styled.div`
     
     @media (max-width:425px){
         width:120vw;
+        background:red;
+        flex-wrap:wrap;
+    }
+
+    @media (max-width:375px){
+        width:140vw;
         background:red;
         flex-wrap:wrap;
     }
@@ -51,11 +56,27 @@ export const Products = styled.div`
     align-items:center;
     margin:0 auto;
     background:gray;
+    height:60vh;
+
+
+    @media (max-width:768px){
+        width:40vw;
+        min-height:95vh;
+        max-height:120vh;
+    }
 
     @media (max-width:425px){
         text-align:left;
-        width:35vw;
+        width:60vw;
         background:green;
+        height:70vh;
+    }
+
+    media (max-width:375px){
+        text-align:left;
+        width:70vw;
+        background:blue;
+        height:70vh;
     }
 `;
 
@@ -73,8 +94,11 @@ export const TitleProduct = styled.span`
     @media (max-width:425px){
         text-align:left;
         width:35vw;
-        background:white;
-        // display:inline-block;
+    }
+
+    @media (max-width:425px){
+        text-align:left;
+        width:55vw;
         
     }
 `;
@@ -88,8 +112,12 @@ export const Describe = styled.span`
     text-align:left;
     width:18vw;
 
+
+    @media (max-width:768px){
+        width:30vw;
+    }
     @media (max-width:425px){
-        width:35vw;
+        width:55vw;
     }
 
 `;
@@ -119,7 +147,7 @@ export const Button = styled.button`
         letter-spacing: 0.02rem;
         -webkit-appearance:none;
     }
-    
+
     @media (max-width:425px){
         width:35vw;
     }
