@@ -32,7 +32,6 @@ export const Navbar = styled.div`
 
     @media (max-width:1440px){
         width:90vw;
-        background:gray;
     }
 
 
