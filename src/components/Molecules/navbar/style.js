@@ -1,23 +1,44 @@
 import styled from 'styled-components';
 import { Arrow } from '../../Atoms/images';
 
-export const Navbar = styled.div`
-    padding:15px;
+export const Container = styled.div`
+    width:100%;
     background: #F4F4F4;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+`;
+
+export const Navbar = styled.div`
+    padding:15px;
+    @media (max-width:768px){
+        padding:5px 10px;
+    }
+
 `;
 
 export const Nav = styled.nav`
     display:flex;
     margin:0 auto;
+    justify-content:space-between;
     width:72vw; //(1280px - 40px = 72vw)
+    // flex-wrap:wrap;
+    
+    @media (max-width:768px){
+        width:90vw; 
+        margin:0 0px;
+    }
 `;
-
 
 export const Logo = styled.img`
     width: 225.23px;
     height: 70px;
     background-size:cover;
+
+    @media (max-width:768px){
+        width: 120.23px;
+        height: 50px;    
+    }
+
 `;
 
 export const Div = styled.div`
@@ -40,6 +61,11 @@ export const DeliveryInfos = styled.div`
         position:absolute;
         right:20px;
         top:30%
+    }
+
+    @media (max-width:768px){
+        width: 150px;
+        height: 48px;
     }
 `;
 
@@ -85,6 +111,10 @@ export const Input = styled.input`
     &:focus{
         border: 1px solid #F09035;
         outline: 0;
+    }
+
+    @media (max-width:768px){
+        width: 170px;
     }
    
 `;

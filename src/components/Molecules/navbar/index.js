@@ -44,13 +44,12 @@ const Navbar = () => {
 
     return (
         <>
-
+            <S.Container>
                 <S.Navbar>
                     <S.Nav>
                         <Link to="/">
                             <S.Logo src={Logo} alt="Logo1" />
                         </Link>
-
                         <S.Div>
                             <S.DeliveryInfos>
                                 <S.Span>
@@ -74,7 +73,7 @@ const Navbar = () => {
                         </S.Div>
                     </S.Nav>
                 </S.Navbar>
-
+            </S.Container>
         </>
     )
 };

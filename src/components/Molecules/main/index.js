@@ -5,7 +5,7 @@ import * as S from './style';
 
 const Main = () => {
 
-    const [produto, setProducts] = useState()
+    const [produto, setProducts] = useState();
 
     useEffect(() => {
         fetch('/data.json', {
@@ -13,10 +13,7 @@ const Main = () => {
                 Accept: "application/json"
             }
         }).then(response => response.json()).then(json => setProducts(json))
-    }, [])
-
-
-   
+    }, []);
 
     return (
         <>

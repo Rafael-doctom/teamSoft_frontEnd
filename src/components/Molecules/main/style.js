@@ -6,6 +6,11 @@ export const Posts = styled.div`
     flex-wrap:wrap;
     width:84vw;
     margin:2rem auto;
+    // background:red;
+
+    @media (max-width:768px){
+        width:95vw;
+    }
 `;
 
 export const Products = styled.div`
