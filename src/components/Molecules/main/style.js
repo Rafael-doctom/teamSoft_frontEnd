@@ -32,9 +32,11 @@ export const Posts = styled.div`
     @media (max-width:768px){
         width:90vw;
     }
+    
     @media (max-width:425px){
-        width:140vw;
+        width:120vw;
         background:red;
+        flex-wrap:wrap;
     }
 `;
 
@@ -43,17 +45,17 @@ export const Products = styled.div`
     display:flex;
     flex-direction:column;
     width:18vw;
-    min-width:18vw;
-    max-width:18vw;
-    justify-content:center;
+    // min-width:18vw;
+    // max-width:18vw;
+    // justify-content:center;
     align-items:center;
+    margin:0 auto;
+    background:gray;
 
-   
-    
     @media (max-width:425px){
-        width:100vw;
-        padding:10rem;
-        background:blue;
+        text-align:left;
+        width:35vw;
+        background:green;
     }
 `;
 
@@ -69,7 +71,11 @@ export const TitleProduct = styled.span`
     margin:1rem auto;
 
     @media (max-width:425px){
-        // width:35vw;
+        text-align:left;
+        width:35vw;
+        background:white;
+        // display:inline-block;
+        
     }
 `;
 
@@ -81,6 +87,10 @@ export const Describe = styled.span`
     color: #4E4E4E;
     text-align:left;
     width:18vw;
+
+    @media (max-width:425px){
+        width:35vw;
+    }
 
 `;
 
@@ -109,4 +119,9 @@ export const Button = styled.button`
         letter-spacing: 0.02rem;
         -webkit-appearance:none;
     }
+    
+    @media (max-width:425px){
+        width:35vw;
+    }
+
 `;
