@@ -20,9 +20,10 @@ export const Container = styled.div`
 
 export const Posts = styled.div`
     display:flex;
-    justify-content:center;
+    // justify-content:center;
     flex-wrap:wrap;
     width:85vw;
+    align-items:center;
     margin:2rem auto;
     @media (max-width:1440px){
         width:95vw;
@@ -30,10 +31,11 @@ export const Posts = styled.div`
 
     @media (max-width:768px){
         width:90vw;
+        flex-wrap:wrap;
     }
     
     @media (max-width:425px){
-        width:120vw;
+        width:130vw;
         flex-wrap:wrap;
     }
 
@@ -41,6 +43,8 @@ export const Posts = styled.div`
         width:140vw;
         flex-wrap:wrap;
     }
+
+    
 `;
 
 export const Products = styled.div`
@@ -52,9 +56,8 @@ export const Products = styled.div`
     // max-width:18vw;
     // justify-content:center;
     align-items:center;
-    margin:0 auto;
-    height:60vh;
-
+    margin:1rem auto;
+    height:70vh;
 
     @media (max-width:768px){
         width:40vw;
@@ -64,16 +67,15 @@ export const Products = styled.div`
 
     @media (max-width:425px){
         text-align:left;
-        width:60vw;
+        width:55vw;
         height:70vh;
+    }
+    @media (max-width:375px){
+        width:60vw;
     }
 
-    media (max-width:375px){
-        text-align:left;
-        width:70vw;
-        background:blue;
-        height:70vh;
-    }
+   
+  
 `;
 
 export const TitleProduct = styled.span`

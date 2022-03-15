@@ -38,8 +38,6 @@ export const Navbar = styled.div`
 
     @media (max-width:768px){
         // width:95vw;
-        background:blue;
-
     }
 
     @media (max-width:425px){
