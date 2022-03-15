@@ -1,15 +1,47 @@
 import styled from "styled-components";
 
+export const Container = styled.div`
+    display:block;
+    width:80vw;
+    margin:2rem auto;
+    background:red;
+
+    @media (max-width:1440px){
+        background:yellow;
+        width:92vw;
+    }
+
+    @media (max-width:768px){
+        background:gray;
+        // width:25vw;
+    }
+    @media (max-width:425px){
+        background:tomato;
+        // width:95vw;
+        // padding:1rem 0;
+    }
+`;
+
 export const Posts = styled.div`
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    width:84vw;
+    width:85vw;
     margin:2rem auto;
-    // background:red;
+    background:red;
+
+
+    @media (max-width:1440px){
+        width:95vw;
+        background:blue;
+    }
 
     @media (max-width:768px){
-        width:95vw;
+        background:gray;
+        width:90vw;
+    }
+    @media (max-width:425px){
+        background:red;
     }
 `;
 

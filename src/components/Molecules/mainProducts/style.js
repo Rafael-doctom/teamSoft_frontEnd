@@ -1,7 +1,22 @@
 // import styled from "styled-components";
 import styled, { keyframes } from "styled-components";
 
+// export const TesteBOtao = styled.div`
+//     display:none;
 
+//     @media (max-width:1440px){
+//         display:none;
+//     }
+
+//     @media (max-width:768px){
+//         display:none;
+
+//     }
+//     @media (max-width:425px){
+//         display:block;
+
+//     }
+// `;
 export const Posts = styled.div`
     display:flex;
     justify-content:space-between;

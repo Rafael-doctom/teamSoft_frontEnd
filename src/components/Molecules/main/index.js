@@ -17,27 +17,27 @@ const Main = () => {
 
     return (
         <>
-
-            <S.Posts>
-                {produto &&
-                    produto.map(item => (
-                        <>
+            <S.Container>
+                <S.Posts>
+                    {produto &&
+                        produto.map(item => (
                             <>
-                                <S.Products className="searchProducts">
-                                    <S.ImageProduct src={item.imageProduct} alt="imagem hamburger" />
-                                    <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
-                                    <S.Describe>{item.describe}</S.Describe>
-                                    <h1>{item.value}</h1>
-                                    <Link to={`/produtos/${item.id}`}>
-                                        <S.Button>Ver Produtos {item.id}</S.Button>
-                                    </Link>
-                                </S.Products>
+                                <>
+                                    <S.Products className="searchProducts">
+                                        <S.ImageProduct src={item.imageProduct} alt="imagem hamburger" />
+                                        <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
+                                        <S.Describe>{item.describe}</S.Describe>
+                                        <h1>{item.value}</h1>
+                                        <Link to={`/produtos/${item.id}`}>
+                                            <S.Button>Ver Produtos {item.id}</S.Button>
+                                        </Link>
+                                    </S.Products>
+                                </>
                             </>
-                        </>
-                    ))
-                }
-
-            </S.Posts>
+                        ))
+                    }
+                </S.Posts>
+            </S.Container>
         </>
     )
 }

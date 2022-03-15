@@ -3,15 +3,51 @@ import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
     width:100%;
-    background: #F4F4F4;
+    // background: #F4F4F4;
+    // background: gray;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
+
+    @media (max-width:1440px){
+        background:red;
+    }
+
+    @media (max-width:1024px){
+        background:green;
+    }
+
+    @media (max-width:768px){
+        background:green;
+
+    }
+    @media (max-width:425px){
+        background:tomato;
+    }
 `;
 
 export const Navbar = styled.div`
-    padding:15px;
+    padding:0.87vw;
+    width:80vw;
+    margin:0 auto;
+    display:block;
+
+    @media (max-width:1440px){
+        background:yellow;
+        width:90vw;
+    }
+
+
     @media (max-width:768px){
-        padding:5px 10px;
+        background:gray;
+        width:95vw;
+    }
+
+    @media (max-width:425px){
+        background:blue;
+        width:98vw;
+        padding:1rem 0;
+        margin:0 auto;
+
     }
 
 `;
@@ -20,24 +56,37 @@ export const Nav = styled.nav`
     display:flex;
     margin:0 auto;
     justify-content:space-between;
-    width:72vw; //(1280px - 40px = 72vw)
-    // flex-wrap:wrap;
-    
+    // width:80w; //(1280px - 40px = 72vw)
+    // flex-wrap:inherit;
+
     @media (max-width:768px){
+        width:95vw; 
+        flex-wrap:wrap;
+    }
+
+    @media (max-width:425px){
         width:90vw; 
-        margin:0 0px;
+        flex-wrap:inherit;
     }
 `;
 
+
+
 export const Logo = styled.img`
-    width: 225.23px;
-    height: 70px;
+    width: 221.91px;
+    height: 70.2px;
     background-size:cover;
 
-    @media (max-width:768px){
-        width: 120.23px;
-        height: 50px;    
+    @media (max-width:1440px){
+
     }
+
+    @media (max-width:768px){
+        width: 100px;
+        height: 70.2px;
+    }
+    
+    
 
 `;
 
@@ -92,8 +141,8 @@ export const SearchProducts = styled.div`
 `;
 
 export const Input = styled.input`
-    width: 354px;
-    height: 48px;
+    width: 20.7vw;
+    height:  6.15vh;
     border: 1px solid #ED3237;
     border-radius:4px;
     background: #FFFFFF;
@@ -108,13 +157,14 @@ export const Input = styled.input`
     -moz-transition: all .3s ease-out;
     letter-spacing: 0.03rem;
     -webkit-appearance:none;
+
     &:focus{
         border: 1px solid #F09035;
         outline: 0;
     }
 
     @media (max-width:768px){
-        width: 170px;
+        width: 20.7vw;
     }
    
 `;
