@@ -2,11 +2,15 @@ import styled from 'styled-components';
 import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
-    // width:100%;
+    // width:800px;
     background: #F4F4F4;
-    // background: gray;
+    // background: blue;
     // padding-right:1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+
+    @media (max-width:425px){
+        width:570px;
+    }
 `;
 
 export const Navbar = styled.div`
@@ -14,7 +18,6 @@ export const Navbar = styled.div`
     width:80vw;
     margin:0 auto;
     display:block;
-    // background: #F4F4F4;
     // background: red;
 
     @media (max-width:1440px){
@@ -40,12 +43,11 @@ export const Nav = styled.nav`
 
     @media (max-width:768px){
         width:95vw; 
-        // flex-wrap:wrap;
     }
 
     @media (max-width:425px){
-        width:90vw; 
-        flex-wrap:inherit;
+        // width:90vw; 
+        // flex-wrap:inherit;
     }
 `;
 
