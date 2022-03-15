@@ -3,26 +3,24 @@ import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
     width:100%;
-    // background: #F4F4F4;
-    // background: gray;
+    background: #F4F4F4;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-
     @media (max-width:1440px){
-        background:red;
+
     }
 
     @media (max-width:1024px){
-        background:green;
+
     }
 
     @media (max-width:768px){
-        background:green;
 
     }
     @media (max-width:425px){
-        background:tomato;
+
     }
+
 `;
 
 export const Navbar = styled.div`
@@ -30,24 +28,22 @@ export const Navbar = styled.div`
     width:80vw;
     margin:0 auto;
     display:block;
+    // background: #F4F4F4;
 
     @media (max-width:1440px){
-        background:yellow;
         width:90vw;
+        background:gray;
     }
 
 
     @media (max-width:768px){
-        background:gray;
-        width:95vw;
+        // width:95vw;
+        background:blue;
+
     }
 
     @media (max-width:425px){
-        background:blue;
-        width:98vw;
-        padding:1rem 0;
-        margin:0 auto;
-
+        
     }
 
 `;
@@ -56,12 +52,10 @@ export const Nav = styled.nav`
     display:flex;
     margin:0 auto;
     justify-content:space-between;
-    // width:80w; //(1280px - 40px = 72vw)
-    // flex-wrap:inherit;
 
     @media (max-width:768px){
         width:95vw; 
-        flex-wrap:wrap;
+        // flex-wrap:wrap;
     }
 
     @media (max-width:425px){
@@ -94,6 +88,11 @@ export const Div = styled.div`
     display:flex;
     margin-left:7vw;
     align-items:center;
+
+    @media (max-width:768px){
+        margin-left:0;
+
+    }
 `;
 
 export const DeliveryInfos = styled.div`

@@ -4,19 +4,15 @@ export const Container = styled.div`
     display:block;
     width:80vw;
     margin:2rem auto;
-    background:red;
 
     @media (max-width:1440px){
-        background:yellow;
         width:92vw;
     }
 
     @media (max-width:768px){
-        background:gray;
         // width:25vw;
     }
     @media (max-width:425px){
-        background:tomato;
         // width:95vw;
         // padding:1rem 0;
     }
@@ -28,19 +24,16 @@ export const Posts = styled.div`
     flex-wrap:wrap;
     width:85vw;
     margin:2rem auto;
-    background:red;
-
 
     @media (max-width:1440px){
         width:95vw;
-        background:blue;
     }
 
     @media (max-width:768px){
-        background:gray;
         width:90vw;
     }
     @media (max-width:425px){
+        width:140vw;
         background:red;
     }
 `;
@@ -54,18 +47,30 @@ export const Products = styled.div`
     max-width:18vw;
     justify-content:center;
     align-items:center;
+
+   
+    
+    @media (max-width:425px){
+        width:100vw;
+        padding:10rem;
+        background:blue;
+    }
 `;
 
 export const TitleProduct = styled.span`
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     color: #4E4E4E;
     text-align:center;
     width:18vw;
-    display:inline-block;
+    display:block;
     margin:1rem auto;
+
+    @media (max-width:425px){
+        // width:35vw;
+    }
 `;
 
 export const Describe = styled.span`
