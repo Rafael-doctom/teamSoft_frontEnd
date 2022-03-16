@@ -5,13 +5,19 @@ import styled, { keyframes } from "styled-components";
 export const Posts = styled.div`
     display:flex;
     justify-content:space-between;
-    width:70vw;
+    width:85vw;
     margin:2rem auto;
-    flex-wrap:wrap;
-    
+
+    @media (max-width:1024px){
+      width:90vw;
+      // flex-wrap:wrap;
+    }
+
+
     @media (max-width:768px){
       width:80vw;
       justify-content:none;
+      flex-wrap:wrap;
     }
 `;
 
@@ -41,11 +47,16 @@ export const Describe = styled.span`
   font-size: 20px;
   color: #4E4E4E;
   margin-top:10px;
-  width:45.625rem;
+  width:30.625rem;
 
   @media (max-width:768px){
     width:35.625rem;
     font-size: 25px;
+  }
+
+  @media (max-width:425px){
+    width:20.625rem;
+    font-size: 20px;
   }
 `;
 
@@ -74,11 +85,15 @@ margin-left:17px;
 `;
 
 export const ImageProduct = styled.img`
-  width: 597px;
-  height: 388px;
-
+  width: 480px;
+  height: 380px;
   @media (max-width:768px){
     width: 600px;
+    height: 450px;
+  }
+
+  @media (max-width:425px){
+    width: 350px;
     height: 450px;
   }
 `;
@@ -115,7 +130,7 @@ export const Somar = styled.div`
     border: 1px solid #686868;
     box-sizing: border-box;
     border-radius: 8px;
-    width: 439px;
+    width:430px;
 
     @media (max-width:768px){
       height:900px;
@@ -125,6 +140,13 @@ export const Somar = styled.div`
       border-radius: 0;
     }
 
+    @media (max-width:425px){
+      height:900px;
+      width: 350px;
+      border: 0;
+      box-sizing: border-box;
+      border-radius: 0;
+    }
 `;
 
 export const DivSubmit = styled.div`
@@ -143,6 +165,21 @@ export const DivSubmit = styled.div`
       width:630px;
     }
 
+
+    @media (max-width:768px){
+      bottom:0px;
+      left:0px;
+      position:relative;
+      width:300px;
+    }
+
+
+    @media (max-width:425px){
+      bottom:0px;
+      left:-10px;
+      position:relative;
+      width:350px;
+    }
 `;
 
 export const ButtonsAddWithProduct = styled.button`
@@ -158,6 +195,12 @@ export const ButtonsAddWithProduct = styled.button`
 
   @media (max-width:768px){
     width:350px;
+    height: 40px;
+    margin-right:10px;
+  }
+
+  @media (max-width:425px){
+    width:160px;
     height: 40px;
     margin-right:10px;
   }
@@ -187,6 +230,11 @@ export const ButtonAdded = styled.button`
     width:350px;
     height: 40px;
   }
+
+  @media (max-width:425px){
+    width:170px;
+    height: 40px;
+  }
 `;
 
 export const ButtonsValue = styled.button`
@@ -203,7 +251,7 @@ export const Card = styled.div`
     ::-webkit-scrollbar {
       width: 0px;
     }
-    width: 439px;
+    width: 400px;
     height:500px;
 
     @media (max-width:768px){
@@ -213,6 +261,15 @@ export const Card = styled.div`
       overflow-y: none;
       margin-left:-1rem;
       background:white;
+    }
+
+    @media (max-width:425px){
+      width: 350px;
+      height:800px; 
+      padding:0rem;
+      overflow-y: none;
+      margin-left:-1rem;
+      // background:white;
     }
 `;
 
@@ -252,7 +309,6 @@ export const Teste = styled.div`
     width: 350px;
     height: 80px;
     background: #FFFFFF;
-    // background: green;
 
     padding:8px;
     margin-top:10px;
@@ -265,7 +321,12 @@ export const Teste = styled.div`
       width: 630px;
       height: 80px;
     }
+    
 
+    @media (max-width:425px){
+      width: 330px;
+      height: 80px;
+    }
 `;
 
 export const IngredientTitle = styled.span`
