@@ -7,7 +7,6 @@ export const Container = styled.div`
 
     @media (max-width:1440px){
         width:92vw;
-        background:red;
     }
 
     @media (max-width:768px){
@@ -28,7 +27,6 @@ export const Posts = styled.div`
     margin:2rem auto;
     @media (max-width:1440px){
         width:85vw;
-        background:green;
     }
 
     @media (max-width:768px){
@@ -68,7 +66,6 @@ export const Products = styled.div`
         width:40vw;
         height:95vh;
         // max-height:120vh;
-        background:white;
     }
 
     @media (max-width:425px){
@@ -103,7 +100,6 @@ export const TitleProduct = styled.span`
     @media (max-width:425px){
         text-align:center;
         width:55vw;
-        background:red;
     }
 
     @media (max-width:375px){
@@ -114,7 +110,6 @@ export const TitleProduct = styled.span`
     @media (max-width:320px){
         font-size: 2rem;
         width:110vw;
-        color:white;
     }
 `;
 
@@ -163,7 +158,6 @@ export const ImageProduct = styled.img`
     }
 
     @media (max-width:320px){
-        background:blue;
         width:120vw;
         height:80vh;
     }
