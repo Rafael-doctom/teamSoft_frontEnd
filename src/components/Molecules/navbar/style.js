@@ -7,9 +7,8 @@ export const Container = styled.div`
     // padding-right:1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-
     @media only screen and (max-width:425px){
-        width:570px;
+        // width:570px;
         // background:red;
     }
 `;
