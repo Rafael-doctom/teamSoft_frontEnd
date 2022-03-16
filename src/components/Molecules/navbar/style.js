@@ -86,7 +86,7 @@ export const Div = styled.div`
     }
 
     @media (max-width:375px){
-        margin-left:0rem;
+        margin-left:4rem;
         width:10vw;
     }
 

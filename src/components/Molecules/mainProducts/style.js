@@ -19,6 +19,12 @@ export const Posts = styled.div`
       justify-content:none;
       flex-wrap:wrap;
     }
+
+    @media (max-width:375px){
+      width:80vw;
+      justify-content:none;
+      flex-wrap:wrap;
+    }
 `;
 
 export const ResultProduct = styled.div`
@@ -55,6 +61,11 @@ export const Describe = styled.span`
   }
 
   @media (max-width:425px){
+    width:20.625rem;
+    font-size: 20px;
+  }
+
+  @media (max-width:375px){
     width:20.625rem;
     font-size: 20px;
   }
@@ -95,6 +106,11 @@ export const ImageProduct = styled.img`
   @media (max-width:425px){
     width: 350px;
     height: 450px;
+  }
+
+  @media (max-width:375px){
+    width:80vw;
+    height:70vh;
   }
 `;
 
@@ -147,6 +163,14 @@ export const Somar = styled.div`
       box-sizing: border-box;
       border-radius: 0;
     }
+
+    @media (max-width:375px){
+      height:900px;
+      width: 310px;
+      border: 0;
+      box-sizing: border-box;
+      border-radius: 0;
+    }
 `;
 
 export const DivSubmit = styled.div`
@@ -180,6 +204,13 @@ export const DivSubmit = styled.div`
       position:relative;
       width:350px;
     }
+
+    @media (max-width:375px){
+      bottom:0px;
+      left:-10px;
+      position:relative;
+      width:300px;
+    }
 `;
 
 export const ButtonsAddWithProduct = styled.button`
@@ -201,6 +232,12 @@ export const ButtonsAddWithProduct = styled.button`
 
   @media (max-width:425px){
     width:160px;
+    height: 40px;
+    margin-right:10px;
+  }
+
+  @media (max-width:375px){
+    width:130px;
     height: 40px;
     margin-right:10px;
   }
@@ -271,6 +308,15 @@ export const Card = styled.div`
       margin-left:-1rem;
       // background:white;
     }
+
+    @media (max-width:375px){
+      width: 320px;
+      height:800px; 
+      padding:0rem;
+      overflow-y: none;
+      margin-left:-1rem;
+      // background:white;
+    }
 `;
 
 export const Infos = styled.div`
@@ -325,6 +371,11 @@ export const Teste = styled.div`
 
     @media (max-width:425px){
       width: 330px;
+      height: 80px;
+    }
+
+    @media (max-width:375px){
+      width: 300px;
       height: 80px;
     }
 `;
