@@ -145,7 +145,7 @@ export const SearchProducts = styled.div`
 
 export const Input = styled.input`
     width: 20.7vw;
-    height:  6.15vh;
+    height:  8.15vh;
     border: 1px solid #ED3237;
     border-radius:4px;
     background: #FFFFFF;
