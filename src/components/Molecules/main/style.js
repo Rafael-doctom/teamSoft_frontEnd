@@ -45,7 +45,10 @@ export const Posts = styled.div`
         width:140vw;
         flex-wrap:wrap;
     }
-
+    @media (max-width:320px){
+        width:165vw;
+        flex-wrap:wrap;
+    }
     
 `;
 
@@ -74,11 +77,16 @@ export const Products = styled.div`
         height:80vh;
     }
     @media (max-width:375px){
-        width:60vw;
+        width:90vw;
+        height:95vh;
     }
 
-   
+    @media (max-width:320px){
+        width:150vw;
+        height:160vh;
+    }
   
+
 `;
 
 export const TitleProduct = styled.span`
@@ -98,17 +106,23 @@ export const TitleProduct = styled.span`
         background:red;
     }
 
-    // @media (max-width:425px){
-    //     text-align:left;
-    //     width:55vw;
-    // }
+    @media (max-width:375px){
+        font-size: 1.75rem;
+        width:80vw;
+    }
+
+    @media (max-width:320px){
+        font-size: 2rem;
+        width:110vw;
+        color:white;
+    }
 `;
 
 export const Describe = styled.span`
     font-family: 'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 0.813rem;
     color: #4E4E4E;
     text-align:left;
     width:18vw;
@@ -117,10 +131,20 @@ export const Describe = styled.span`
     @media (max-width:768px){
         width:30vw;
     }
+
     @media (max-width:425px){
         width:55vw;
     }
 
+    @media (max-width:375px){
+        width:80vw;
+        font-size: 0.913rem;
+    }
+
+    @media (max-width:320px){
+        width:120vw;
+        font-size: 1rem;
+    }
 `;
 
 export const ImageProduct = styled.img`
@@ -131,6 +155,17 @@ export const ImageProduct = styled.img`
     @media (max-width:768px){
         width:30vw;
         height:33vh;
+    }
+
+    @media (max-width:375px){
+        width:65vw;
+        height:70vh;
+    }
+
+    @media (max-width:320px){
+        background:blue;
+        width:120vw;
+        height:80vh;
     }
 `;
 
@@ -158,4 +193,11 @@ export const Button = styled.button`
         width:35vw;
     }
 
+    @media (max-width:375px){
+        width:90vw;
+    }
+
+    @media (max-width:320px){
+        width:120vw;
+    }
 `;
