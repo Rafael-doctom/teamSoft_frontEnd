@@ -1,5 +1,7 @@
 # TeamSoft | Desenvolvedor FrontEnd Jr
 
+<img src="https://user-images.githubusercontent.com/57225298/158670121-44c3ef60-bff4-43ad-8c0a-4c73689e1473.gif" alt="gif project">
+
 ## ✅ To Do List
 
 - [x] Buscar produto
@@ -25,4 +27,4 @@
 
 ## 💡 [layout](https://www.figma.com/file/1RWDOOFeh5836Y4KruOl5w/FrontEnd?node-id=0%3A1)
 ## 💡 [Demo](https://team-soft.netlify.app/)
-<img src="https://user-images.githubusercontent.com/57225298/158670121-44c3ef60-bff4-43ad-8c0a-4c73689e1473.gif" alt="gif project">
+
