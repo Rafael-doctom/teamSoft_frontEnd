@@ -1,28 +1,18 @@
 // import styled from "styled-components";
 import styled, { keyframes } from "styled-components";
 
-// export const TesteBOtao = styled.div`
-//     display:none;
 
-//     @media (max-width:1440px){
-//         display:none;
-//     }
-
-//     @media (max-width:768px){
-//         display:none;
-
-//     }
-//     @media (max-width:425px){
-//         display:block;
-
-//     }
-// `;
 export const Posts = styled.div`
     display:flex;
     justify-content:space-between;
     width:70vw;
     margin:2rem auto;
+    flex-wrap:wrap;
     
+    @media (max-width:768px){
+      width:80vw;
+      justify-content:none;
+    }
 `;
 
 export const ResultProduct = styled.div`
@@ -37,6 +27,10 @@ export const TitleProduct = styled.span`
     font-size: 28px;
     margin-top:10px;
     color: #4E4E4E;
+
+    @media (max-width:768px){
+      font-size: 45px;
+    }
    
 `;
 
@@ -47,7 +41,12 @@ export const Describe = styled.span`
   font-size: 20px;
   color: #4E4E4E;
   margin-top:10px;
-  width:730px;
+  width:45.625rem;
+
+  @media (max-width:768px){
+    width:35.625rem;
+    font-size: 25px;
+  }
 `;
 
 export const DivValues = styled.div`
@@ -77,6 +76,11 @@ margin-left:17px;
 export const ImageProduct = styled.img`
   width: 597px;
   height: 388px;
+
+  @media (max-width:768px){
+    width: 600px;
+    height: 450px;
+  }
 `;
 
 export const Button = styled.button`
@@ -91,12 +95,16 @@ export const Button = styled.button`
     letter-spacing:0.1rem;
 
     &:hover{
-        background:red;
-        transition: all .3s ease-out;
+          transition: all .3s ease-out;
         -webkit-transition: all .3s ease-out;
         -moz-transition: all .3s ease-out;
         letter-spacing: 0.02rem;
         -webkit-appearance:none;
+    }
+
+    @media (max-width:768px){
+      height: 80px;
+      width:18vw;
     }
 `;
 
@@ -109,6 +117,14 @@ export const Somar = styled.div`
     border-radius: 8px;
     width: 439px;
 
+    @media (max-width:768px){
+      height:900px;
+      width: 900px;
+      border: 0;
+      box-sizing: border-box;
+      border-radius: 0;
+    }
+
 `;
 
 export const DivSubmit = styled.div`
@@ -119,6 +135,14 @@ export const DivSubmit = styled.div`
     width:380px;
     z-index:999;
     display:flex;
+
+    @media (max-width:768px){
+      bottom:0px;
+      left:0px;
+      position:relative;
+      width:630px;
+    }
+
 `;
 
 export const ButtonsAddWithProduct = styled.button`
@@ -131,6 +155,12 @@ export const ButtonsAddWithProduct = styled.button`
   display:flex;
   align-items:center;
   margin-right:5px;
+
+  @media (max-width:768px){
+    width:350px;
+    height: 40px;
+    margin-right:10px;
+  }
 `;
 
 export const ButtonAdded = styled.button`
@@ -146,12 +176,16 @@ export const ButtonAdded = styled.button`
     cursor:pointer;
     
     &:hover{
-      background:red;
       transition: all .3s ease-out;
       -webkit-transition: all .3s ease-out;
       -moz-transition: all .3s ease-out;
       letter-spacing: 0.02rem;
       -webkit-appearance:none;
+  }
+
+  @media (max-width:768px){
+    width:350px;
+    height: 40px;
   }
 `;
 
@@ -171,6 +205,15 @@ export const Card = styled.div`
     }
     width: 439px;
     height:500px;
+
+    @media (max-width:768px){
+      width: 650px;
+      height:800px; 
+      padding:0rem;
+      overflow-y: none;
+      margin-left:-1rem;
+      background:white;
+    }
 `;
 
 export const Infos = styled.div`
@@ -180,6 +223,11 @@ export const Infos = styled.div`
     display:flex;
     flex-direction:column;
     padding:8px;
+
+    @media (max-width:768px){
+      width: 630px;
+      height: 80px;
+    }
 `;
 
 export const Ingredients = styled.span`
@@ -212,6 +260,12 @@ export const Teste = styled.div`
     flex-direction:column;
     position:relative;
     border-bottom: 1px solid #E8A634;
+
+    @media (max-width:768px){
+      width: 630px;
+      height: 80px;
+    }
+
 `;
 
 export const IngredientTitle = styled.span`
@@ -254,6 +308,11 @@ export const Buttons = styled.button`
 
 export const AsRequest = styled.div`
     margin-top:5px;
+
+    @media (max-width:768px){
+      width: 630px;
+      height: 80px;
+    }
 `;
 
 export const RequestedInfo = styled.div`
@@ -263,6 +322,11 @@ export const RequestedInfo = styled.div`
     display:flex;
     flex-direction:column;
     padding:8px;
+
+    @media (max-width:768px){
+      width: 630px;
+      height: 80px;
+    }
 `;
 
 
@@ -275,6 +339,11 @@ export const DivCheck = styled.div`
     margin-top:0px;
     position:relative;
     margin-bottom:10px;
+
+    @media (max-width:768px){
+      width: 630px;
+      height: 35px;
+    }
 `;
 
 export const RequestQuestion = styled.span`

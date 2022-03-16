@@ -24,7 +24,6 @@ const MainProducts = ({ checked, ...props }) => {
     return (
         <>
             <S.Posts>
-                {/* <S.TesteBOtao>OK</S.TesteBOtao> */}
 
                 <S.ResultProduct id="resultado">
                     <S.ImageProduct src={result.imageProduct} />
