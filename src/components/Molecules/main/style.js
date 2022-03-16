@@ -100,7 +100,7 @@ export const TitleProduct = styled.span`
 
     @media (max-width:375px){
         font-size: 1.75rem;
-        width:40vw;
+        width:60vw;
     }
 
     @media (max-width:320px){

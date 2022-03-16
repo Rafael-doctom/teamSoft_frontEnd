@@ -44,6 +44,9 @@ export const TitleProduct = styled.span`
       font-size: 45px;
     }
    
+    @media (max-width:375px){
+      font-size: 30px;
+    }
 `;
 
 export const Describe = styled.span`
