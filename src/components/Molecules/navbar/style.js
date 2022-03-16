@@ -15,7 +15,7 @@ export const Container = styled.div`
 
 export const Navbar = styled.div`
     padding:0.87vw;
-    width:80vw;
+    width:82vw;
     margin:0 auto;
     display:block;
 
@@ -27,6 +27,8 @@ export const Navbar = styled.div`
 
     @media (max-width:425px){
         width:10vw;
+        padding-top:0.45rem;
+        padding-bottom:0.45rem;
     }
     @media (max-width:425px){
         // width:0vw;
@@ -63,7 +65,10 @@ export const Logo = styled.img`
         width: 160px;
         height: 70.2px;
     }
+
     @media (max-width:425px){
+        width: 160px;
+        height: 50px;
     }
 
 `;
@@ -168,10 +173,13 @@ export const Input = styled.input`
 `;
 
 export const Profile = styled.div`
-    margin-left:1.93vw;
     display:flex;
     align-items:center;
     color: #ED3237;
+
+    @media (min-width:1024px){
+        margin-left:1.93vw;
+    }
 `;
 
 export const ImageProfile = styled.img`
