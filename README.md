@@ -25,6 +25,7 @@
 2. Entrar na pasta e instalar as dependências com `yarn`;
 3. Rodar o projeto usando `yarn start`
 
-## 💡 [layout](https://www.figma.com/file/1RWDOOFeh5836Y4KruOl5w/FrontEnd?node-id=0%3A1)
-## 💡 [Demo](https://team-soft.netlify.app/)
+## 💡 Utilizar como base o seguinte [layout](https://www.figma.com/file/1RWDOOFeh5836Y4KruOl5w/FrontEnd?node-id=0%3A1). 
+
+## 💡 Para ver o projeto, acesse a [demo](https://team-soft.netlify.app/).
 
