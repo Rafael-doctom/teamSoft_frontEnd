@@ -20,14 +20,10 @@ export const Navbar = styled.div`
     display:block;
     // background: red;
 
-    @media (max-width:1440px){
-        // width:93vw;
-    }
-
 
     @media (max-width:768px){
-        // width:55vw;
         margin:0;
+        width:97vw;
     }
 
     @media (max-width:425px){
@@ -42,11 +38,12 @@ export const Nav = styled.nav`
     justify-content:space-between;
 
     @media (max-width:768px){
-        width:95vw; 
+        width:99vw; 
+        // justify-content:space-around;
     }
 
     @media (max-width:425px){
-        // width:90vw; 
+        width:100vw; 
         // flex-wrap:inherit;
     }
 `;
@@ -57,10 +54,6 @@ export const Logo = styled.img`
     width: 221.91px;
     height: 70.2px;
     background-size:cover;
-
-    @media (max-width:1440px){
-
-    }
 
     @media (max-width:768px){
         width: 160px;
@@ -74,16 +67,21 @@ export const Div = styled.div`
     align-items:center;
     
     @media (max-width:768px){
-        // margin-left:7vw;
-        width:50vw;
+        width:30vw;
     }
+
     @media (max-width:425px){
-        margin-left:7vw;
-        width:95vw;
+        width:15vw;
     }
+
+    @media (max-width:375px){
+        margin-left:0rem;
+        width:10vw;
+    }
+
     @media (max-width:320px){
-        margin-left:10vw;
-        width:120vw;
+        margin-left:12rem;
+        width:10vw;
     }
 `;
 
@@ -106,7 +104,9 @@ export const DeliveryInfos = styled.div`
     @media (max-width:768px){
         width: 150px;
         height: 48px;
+        display:none;
     }
+
 `;
 
 
@@ -129,6 +129,7 @@ export const Adress = styled.p`
 
 export const SearchProducts = styled.div`
     margin-left: 1.40vw;
+
 `;
 
 export const Input = styled.input`

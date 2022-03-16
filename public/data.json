@@ -1,13 +1,5 @@
 [
     {
-        "id": 1,
-        "titleProduct": "Oferta X-cheddar Picanha c/ Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/1.svg",
-        "value": "R$18,99",
-        "beforeValue": "21,99"
-    },
-    {
         "id": 2,
         "titleProduct": "X-salada simples",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
@@ -67,8 +59,16 @@
         "id": 9,
         "titleProduct": "Oferta Picanha Cheddar Bacon",
         "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/1.svg",
+        "imageProduct": "/products/4.png",
         "value": "R$14,99",
         "beforeValue": "16,99"
+    },
+    {
+        "id": 1,
+        "titleProduct": "Oferta X-cheddar Picanha c/ Bacon",
+        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
+        "imageProduct": "/products/1.svg",
+        "value": "R$18,99",
+        "beforeValue": "21,99"
     }
 ]
