@@ -5,10 +5,6 @@ export const Container = styled.div`
     width:80vw;
     margin:2rem auto;
 
-    @media (max-width:1440px){
-        width:92vw;
-    }
-
     @media (max-width:768px){
         // width:25vw;
     }
@@ -30,17 +26,17 @@ export const Posts = styled.div`
     }
 
     @media (max-width:768px){
-        width:90vw;
+        width:80vw;
         flex-wrap:wrap;
     }
     
     @media (max-width:425px){
-        width:130vw;
+        width:60vw;
         flex-wrap:wrap;
     }
 
     @media (max-width:375px){
-        width:140vw;
+        width:50vw;
         flex-wrap:wrap;
     }
     @media (max-width:320px){
@@ -74,7 +70,7 @@ export const Products = styled.div`
         height:80vh;
     }
     @media (max-width:375px){
-        width:90vw;
+        width:50vw;
         height:95vh;
     }
 
@@ -104,7 +100,7 @@ export const TitleProduct = styled.span`
 
     @media (max-width:375px){
         font-size: 1.75rem;
-        width:80vw;
+        width:40vw;
     }
 
     @media (max-width:320px){
