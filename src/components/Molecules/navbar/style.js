@@ -4,12 +4,13 @@ import { Arrow } from '../../Atoms/images';
 export const Container = styled.div`
     // width:800px;
     background: #F4F4F4;
-    // background: blue;
     // padding-right:1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
-    @media (max-width:425px){
+
+    @media only screen and (max-width:425px){
         width:570px;
+        // background:red;
     }
 `;
 
@@ -18,18 +19,19 @@ export const Navbar = styled.div`
     width:80vw;
     margin:0 auto;
     display:block;
-    // background: red;
 
 
-    @media (max-width:768px){
+    @media only screen and  (max-width:768px){
         margin:0;
-        width:97vw;
+        width:95vw;
     }
 
     @media (max-width:425px){
-        // width:10vw;
+        width:10vw;
     }
-
+    @media (max-width:425px){
+        // width:0vw;
+    }
 `;
 
 export const Nav = styled.nav`
@@ -38,13 +40,16 @@ export const Nav = styled.nav`
     justify-content:space-between;
 
     @media (max-width:768px){
-        width:99vw; 
+        width:95vw; 
         // justify-content:space-around;
     }
 
     @media (max-width:425px){
-        width:100vw; 
-        // flex-wrap:inherit;
+        width:60vw; 
+    }
+
+    @media (max-width:375px){
+        width:10vw; 
     }
 `;
 
@@ -58,6 +63,8 @@ export const Logo = styled.img`
     @media (max-width:768px){
         width: 160px;
         height: 70.2px;
+    }
+    @media (max-width:425px){
     }
 
 `;
