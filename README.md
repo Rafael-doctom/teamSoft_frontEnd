@@ -2,7 +2,7 @@
 
 <img src="https://user-images.githubusercontent.com/57225298/158670121-44c3ef60-bff4-43ad-8c0a-4c73689e1473.gif" alt="gif project">
 
-## ✅ To Do List
+## ✅ Funcionalidades
 
 - [x] Buscar produto
 - [x] + de 1 produto disponível
