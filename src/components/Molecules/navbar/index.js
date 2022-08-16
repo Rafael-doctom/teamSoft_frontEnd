@@ -7,12 +7,14 @@ import {
 import * as S from './style';
 
 import { Logo, ImageProfile, ImageCar } from '../../Atoms/images';
+import Login from '../login';
 
 const Navbar = () => {
 
 
     const [dados, setDados] = useState();
     const [inputValue, setInputValue] = useState('')
+    const [login, setLogin] = useState(false)
 
     useEffect(() => {
         fetch("./data.json")
@@ -41,6 +43,9 @@ const Navbar = () => {
         }
     };
 
+    const openLogin = () => {
+        setLogin(!login)
+    }
 
     return (
         <>
@@ -62,10 +67,15 @@ const Navbar = () => {
                             <S.SearchProducts>
                                 <S.Input type="text" placeholder="Busque por estabelecimento ou produtos" onKeyUp={SearchDatasInput} onChange={teste} />
                             </S.SearchProducts>
-                            <S.Profile>
+                            <S.Profile onClick={openLogin}>
                                 <S.ImageProfile src={ImageProfile} alt="Logo1" />
                                 Entrar
                             </S.Profile>
+                            {
+                                login ? (
+                                    <Login />
+                                ) : null
+                            }
                             <S.Cart>
                                 <S.ImageCar src={ImageCar} alt="Logo1" />
                                 Carrinho

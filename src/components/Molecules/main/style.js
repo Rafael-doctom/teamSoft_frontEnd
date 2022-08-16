@@ -4,7 +4,6 @@ export const Container = styled.div`
     display:block;
     width:80vw;
     margin:2rem auto;
-
     @media (max-width:768px){
         // width:25vw;
     }

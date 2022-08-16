@@ -26,6 +26,7 @@ export const Navbar = styled.div`
     }
 
     @media (max-width:425px){
+        <S.Profile onClick={openLogin}>
         width:10vw;
         padding-top:0.45rem;
         padding-bottom:0.45rem;
@@ -176,7 +177,8 @@ export const Profile = styled.div`
     display:flex;
     align-items:center;
     color: #ED3237;
-
+    cursor:pointer;
+    
     @media (min-width:1024px){
         margin-left:1.93vw;
     }
@@ -193,6 +195,7 @@ export const Cart = styled.div`
     display:flex;
     align-items:center;
     color: #ED3237;
+    cursor:pointer;
 
 `;
 
