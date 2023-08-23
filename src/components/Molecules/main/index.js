@@ -38,11 +38,6 @@ const Main = () => {
         setProductValue('');
     };
 
-    // const handleDeleteProduct = (productId) => {
-    //     const updatedProducts = produto.filter(item => item.id !== productId);
-    //     setProducts(updatedProducts);
-    // };
-
     const handleDeleteProduct = (productId) => {
         console.log('Deleting product with ID:', productId);
         const updatedProducts = produto.filter(item => item.id !== productId);
@@ -57,30 +52,30 @@ const Main = () => {
             <S.Container>
                 {/* Formulário de criação de produtos */}
                 <S.FormWrapper>
-                    <input
+                    <S.Input
                         type="text"
                         placeholder="Product Name"
                         value={productName}
                         onChange={(e) => setProductName(e.target.value)}
                     />
-                    <textarea
+                    <S.Input
                         placeholder="Product Description"
                         value={productDescription}
                         onChange={(e) => setProductDescription(e.target.value)}
                     />
-                    <input
+                    <S.Input
                         type="text"
                         placeholder="Image URL"
                         value={productImage}
                         onChange={(e) => setProductImage(e.target.value)}
                     />
-                    <input
+                    <S.Input
                         type="text"
                         placeholder="Product Value"
                         value={productValue}
                         onChange={(e) => setProductValue(e.target.value)}
                     />
-                    <button onClick={handleAddProduct}>Add Product</button>
+                    <S.Buttonadd onClick={handleAddProduct}>Adicionar Receita</S.Buttonadd>
                 </S.FormWrapper>
 
                 {/* Listagem de produtos */}
