@@ -48,7 +48,6 @@ export const Posts = styled.div`
         flex-wrap:wrap;
     }
 
-    background:red;
     
 `;
 
@@ -57,7 +56,6 @@ export const Products = styled.div`
     display:flex;
     flex-direction:column;
     width:18vw;
-      background:green;
     align-items:center;
     margin:1rem left;
 
@@ -203,16 +201,16 @@ export const ImageProduct = styled.img`
 
 export const ButtonExluir = styled.button`
 width:18vw;
-    height:  3vh;
-    max-height:  3vh;
+    height:  4.7vh;
+    max-eight: 5vh;
     border: 1px solid #4D3EFC;
     border-radius:4px;
-    background: #FFFFFF;
-    padding:7px;
+    background: #4D3EFC;
+    // padding:7px;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 400;
-    color: #656363;
+    font-weight: 700;
+    color: white;
     text-indent: 8px;
     transition: all .3s ease-out;
     -webkit-transition: all .3s ease-out;
@@ -220,7 +218,8 @@ width:18vw;
     letter-spacing: 0.03rem;
     -webkit-appearance:none;
 
-    margin: 0 0.25rem;
+    cursor:pointer;
+
     &:focus{
         border: 1px solid #F09035;
         outline: 0;
@@ -229,9 +228,7 @@ width:18vw;
     @media (max-width:768px){
         display:none;
     }
-    
-    margin:0.25rem 0;
-    cursor:pointer;
+   
    
 `;
 

@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Home from "./pages/home";
-import Produtos from "./pages/produtos";
+// import Produtos from "./pages/produtos";
 
 
 const MainRoutes = () => {
@@ -14,7 +14,7 @@ const MainRoutes = () => {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="produtos/:idPage" element={<Produtos />} />
+                {/* <Route path="produtos/:idPage" element={<Produtos />} /> */}
             </Routes>
         </BrowserRouter>,
         document.getElementById("root")

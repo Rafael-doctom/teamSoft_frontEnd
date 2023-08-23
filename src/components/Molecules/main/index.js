@@ -10,7 +10,7 @@ const Main = () => {
     const [productValue, setProductValue] = useState('');
 
     useEffect(() => {
-        fetch('./datatest.json').then(response => response.json()).then(json => setProducts(json))
+        fetch('./dataProducts.json').then(response => response.json()).then(json => setProducts(json))
     }, []);
 
     const handleAddProduct = () => {
@@ -87,10 +87,10 @@ const Main = () => {
                                 <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
                                 <S.Describe>{item.describe}</S.Describe>
                                 <h1>{item.value}</h1>
-                                <Link to={`/produtos/${item.id}`}>
+                                {/* <Link to={`/produtos/${item.id}`}>
                                     <S.Button>Ver  {item.titleProduct}</S.Button>
-                                </Link>
-                                <S.ButtonExluir onClick={() => handleDeleteProduct(item.id)}>Excluir Produto</S.ButtonExluir>
+                                </Link> */}
+                                <S.ButtonExluir onClick={() => handleDeleteProduct(item.id)}>Excluir Receita</S.ButtonExluir>
                             </S.Products>
                         ))}
                 </S.Posts>
