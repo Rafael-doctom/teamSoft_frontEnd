@@ -42,7 +42,7 @@ const Navbar = () => {
                         </Link>
                         <S.Div>
                             <S.SearchProducts>
-                                <S.Input type="text" placeholder="Busque por estabelecimento ou produtos" onKeyUp={SearchDatasInput} onChange={teste} />
+                                <S.Input type="text" placeholder="Pesquisar receitas..." onKeyUp={SearchDatasInput} onChange={teste} />
                             </S.SearchProducts>
                         </S.Div>
                     </S.Nav>
