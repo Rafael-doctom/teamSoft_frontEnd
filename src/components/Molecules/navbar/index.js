@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 
 import {
     Link
@@ -6,8 +6,7 @@ import {
 
 import * as S from './style';
 
-import { Logo, ImageProfile, ImageCar } from '../../Atoms/images';
-import Login from '../login';
+import { Logo } from '../../Atoms/images';
 
 const Navbar = () => {
 
