@@ -85,8 +85,8 @@ export const Products = styled.div`
 export const TitleProduct = styled.span`
     font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 500;
-    font-size: 1.125rem;
+    font-weight: 700;
+    font-size: 1.225rem;
     color: #4E4E4E;
     text-align:center;
     width:18vw;
@@ -112,7 +112,7 @@ export const TitleProduct = styled.span`
 export const Describe = styled.span`
     font-family: 'Roboto',sans-serif;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 0.813rem;
     color: #4E4E4E;
     text-align:left;

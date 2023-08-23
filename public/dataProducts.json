@@ -4,7 +4,7 @@
         "titleProduct": "Bolo de Chocolate",
         "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "imageProduct": "/products/1.jpg",
-        "value": "R$45,99",
+        "value": "R$55,99",
         "beforeValue": "45,99"
     },
     {
@@ -12,15 +12,15 @@
         "titleProduct": "Bolo de Chocolate com Morango",
         "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "imageProduct": "/products/2.jpg",
-        "value": "R$45,99",
-        "beforeValue": "45,99"
+        "value": "R$25,99",
+        "beforeValue": "65,99"
     },
     {
         "id": 3,
         "titleProduct": "Bolo de Chocolate com Brigadeiro",
         "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
         "imageProduct": "/products/3.jpg",
-        "value": "R$45,99",
-        "beforeValue": "45,99"
+        "value": "R$42,99",
+        "beforeValue": "35,99"
     }
 ]
