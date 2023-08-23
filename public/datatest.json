@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "titleProduct": "ID 1",
+        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
+        "imageProduct": "/products/2.png",
+        "value": "R$15,99",
+        "beforeValue": "16,99"
+    },
+    {
+        "id": 2,
+        "titleProduct": "ID 2 ",
+        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
+        "imageProduct": "/products/3.png",
+        "value": "R$12,99",
+        "beforeValue": "15,99"
+    }
+   
+]

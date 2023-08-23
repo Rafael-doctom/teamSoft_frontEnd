@@ -20,7 +20,7 @@ const Navbar = () => {
         fetch("./data.json")
             .then(response => response.json())
             .then(json => setDados(json))
-    }, [dados]);
+    }, []);
 
 
     const teste = (event) => {
@@ -56,22 +56,22 @@ const Navbar = () => {
                             <S.Logo src={Logo} alt="Logo1" />
                         </Link>
                         <S.Div>
-                            <S.DeliveryInfos>
+                            {/* <S.DeliveryInfos>
                                 <S.Span>
                                     Entrega:
                                 </S.Span>
                                 <S.Adress>
                                     R. Antonio Braune, 222
                                 </S.Adress>
-                            </S.DeliveryInfos>
+                            </S.DeliveryInfos> */}
                             <S.SearchProducts>
                                 <S.Input type="text" placeholder="Busque por estabelecimento ou produtos" onKeyUp={SearchDatasInput} onChange={teste} />
                             </S.SearchProducts>
-                            <S.Profile onClick={openLogin}>
+                            {/* <S.Profile onClick={openLogin}>
                                 <S.ImageProfile src={ImageProfile} alt="Logo1" />
                                 Entrar
-                            </S.Profile>
-                            {
+                            </S.Profile> */}
+                            {/* {
                                 login ? (
                                     <Login />
                                 ) : null
@@ -79,7 +79,7 @@ const Navbar = () => {
                             <S.Cart>
                                 <S.ImageCar src={ImageCar} alt="Logo1" />
                                 Carrinho
-                            </S.Cart>
+                            </S.Cart> */}
                         </S.Div>
                     </S.Nav>
                 </S.Navbar>

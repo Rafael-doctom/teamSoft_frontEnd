@@ -13,6 +13,10 @@ export const Container = styled.div`
     }
 `;
 
+export const FormWrapper = styled.div`
+
+`
+
 export const Posts = styled.div`
     display:flex;
     // justify-content:center;
