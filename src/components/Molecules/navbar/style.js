@@ -7,7 +7,6 @@ export const Container = styled.div`
 
     @media only screen and (max-width:425px){
         width:100%;
-        background:red;
     }
 `;
 
@@ -20,20 +19,18 @@ export const Navbar = styled.div`
 
     @media only screen and  (max-width:768px){
         margin:0;
-        width:100%;
-
+        // width:100%;
     }
 
     @media (max-width:425px){
         <S.Profile onClick={openLogin}>
-        width:100%;
+        // width:100%;
 
         padding-top:0.45rem;
         padding-bottom:0.45rem;
     }
     @media (max-width:425px){
-        width:100%;
-
+        // width:100%;
     }
 `;
 
@@ -72,8 +69,7 @@ export const Logo = styled.img`
     }
 
     @media (max-width:425px){
-        width:50%;
-
+        width:100%;
         height: 100%;
     }
 
@@ -83,47 +79,7 @@ export const Div = styled.div`
     display:flex;
     align-items:center;
     
-    @media (max-width:768px){
-        width:30vw;
-    }
-
-    @media (max-width:425px){
-        width:15vw;
-    }
-
-    @media (max-width:375px){
-        margin-left:4rem;
-        width:10vw;
-    }
-
-    @media (max-width:320px){
-        margin-left:12rem;
-        width:10vw;
-    }
-`;
-
-export const DeliveryInfos = styled.div`
-    background: #FFFFFF;
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
-    border-radius: 4px;
-    padding:10px;
-    position:relative;
-    width: 230px;
-    height: 48px;
-    cursor:pointer;
-    &:before {
-        content:url(${Arrow});
-        position:absolute;
-        right:20px;
-        top:30%
-    }
-
-    @media (max-width:768px){
-        width: 150px;
-        height: 48px;
-        display:none;
-    }
-
+  
 `;
 
 
@@ -146,6 +102,14 @@ export const Adress = styled.p`
 
 export const SearchProducts = styled.div`
     margin-left: 1.40vw;
+
+    @media (max-width:786px){
+        display:none;
+        margin:0;
+
+        backgron:blue;
+    }
+
 `;
 
 export const Input = styled.input`
