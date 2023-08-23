@@ -180,6 +180,41 @@ export const ImageProduct = styled.img`
 `;
 
 
+export const ButtonOpenModal = styled.button`
+width:18vw;
+    height:  4.7vh;
+    max-eight: 5vh;
+    border: 1px solid #4D3EFC;
+    border-radius:4px;
+    background: #4D3EFC;
+    // padding:7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-indent: 8px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    letter-spacing: 0.03rem;
+    -webkit-appearance:none;
+
+    cursor:pointer;
+
+    &:focus{
+        border: 1px solid #F09035;
+        outline: 0;
+    }
+
+    @media (max-width:768px){
+       width:100%;
+    }
+    margin:1rem 0;
+   
+    
+   
+`;
+
 export const ButtonExluir = styled.button`
 width:18vw;
     height:  4.7vh;
