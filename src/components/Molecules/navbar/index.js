@@ -11,17 +11,7 @@ import Login from '../login';
 
 const Navbar = () => {
 
-
-    const [dados, setDados] = useState();
     const [inputValue, setInputValue] = useState('')
-    const [login, setLogin] = useState(false)
-
-    useEffect(() => {
-        fetch("./data.json")
-            .then(response => response.json())
-            .then(json => setDados(json))
-    }, []);
-
 
     const teste = (event) => {
         event.preventDefault();
@@ -43,10 +33,6 @@ const Navbar = () => {
         }
     };
 
-    const openLogin = () => {
-        setLogin(!login)
-    }
-
     return (
         <>
             <S.Container>
@@ -56,30 +42,9 @@ const Navbar = () => {
                             <S.Logo src={Logo} alt="Logo1" />
                         </Link>
                         <S.Div>
-                            {/* <S.DeliveryInfos>
-                                <S.Span>
-                                    Entrega:
-                                </S.Span>
-                                <S.Adress>
-                                    R. Antonio Braune, 222
-                                </S.Adress>
-                            </S.DeliveryInfos> */}
                             <S.SearchProducts>
                                 <S.Input type="text" placeholder="Busque por estabelecimento ou produtos" onKeyUp={SearchDatasInput} onChange={teste} />
                             </S.SearchProducts>
-                            {/* <S.Profile onClick={openLogin}>
-                                <S.ImageProfile src={ImageProfile} alt="Logo1" />
-                                Entrar
-                            </S.Profile> */}
-                            {/* {
-                                login ? (
-                                    <Login />
-                                ) : null
-                            }
-                            <S.Cart>
-                                <S.ImageCar src={ImageCar} alt="Logo1" />
-                                Carrinho
-                            </S.Cart> */}
                         </S.Div>
                     </S.Nav>
                 </S.Navbar>
