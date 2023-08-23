@@ -47,9 +47,7 @@ const Main = () => {
     };
 
     const HandleModal = () => {
-
             setModal(!modal)
-
     }
 
 

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
     background: #F4F4F4;
