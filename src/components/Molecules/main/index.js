@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
 import * as S from './style';
 
 const Main = () => {
@@ -87,9 +86,6 @@ const Main = () => {
                                 <S.TitleProduct>{item.titleProduct}</S.TitleProduct>
                                 <S.Describe>{item.describe}</S.Describe>
                                 <h1>{item.value}</h1>
-                                {/* <Link to={`/produtos/${item.id}`}>
-                                    <S.Button>Ver  {item.titleProduct}</S.Button>
-                                </Link> */}
                                 <S.ButtonExluir onClick={() => handleDeleteProduct(item.id)}>Excluir Receita</S.ButtonExluir>
                             </S.Products>
                         ))}
