@@ -5,7 +5,7 @@ export const Container = styled.div`
     width:80vw;
     margin:2rem auto;
 
-    display:none;
+    // display:none;
     @media (max-width:768px){
         // width:25vw;
     }
