@@ -2,56 +2,60 @@ import styled from 'styled-components';
 import { Arrow } from '../../Atoms/images';
 
 export const Container = styled.div`
-    // width:800px;
     background: #F4F4F4;
-    // padding-right:1rem;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
 
     @media only screen and (max-width:425px){
-        // width:570px;
-        // background:red;
+        width:100%;
+        background:red;
     }
 `;
 
 export const Navbar = styled.div`
     padding:0.87vw;
-    width:82vw;
+    width:90%;
     margin:0 auto;
     display:block;
 
 
     @media only screen and  (max-width:768px){
         margin:0;
-        width:95vw;
+        width:100%;
+
     }
 
     @media (max-width:425px){
         <S.Profile onClick={openLogin}>
-        width:10vw;
+        width:100%;
+
         padding-top:0.45rem;
         padding-bottom:0.45rem;
     }
     @media (max-width:425px){
-        // width:0vw;
+        width:100%;
+
     }
 `;
 
 export const Nav = styled.nav`
     display:flex;
     margin:0 auto;
+    // justify-content:space-between;
     justify-content:space-between;
 
+
     @media (max-width:768px){
-        width:95vw; 
-        // justify-content:space-around;
+        width:100%;
     }
 
     @media (max-width:425px){
-        width:60vw; 
+        width:100%; 
     }
 
     @media (max-width:375px){
-        width:10vw; 
+        width:100%;
+        // flex-wrap:wrap;
+        
     }
 `;
 
@@ -63,13 +67,14 @@ export const Logo = styled.img`
     background-size:cover;
 
     @media (max-width:768px){
-        width: 160px;
-        height: 70.2px;
+        width: 50%;
+        height:100%;
     }
 
     @media (max-width:425px){
-        width: 100px;
-        height: 50px;
+        width:50%;
+
+        height: 100%;
     }
 
 `;
@@ -167,7 +172,7 @@ export const Input = styled.input`
     }
 
     @media (max-width:768px){
-        display:none;
+        // display:none;
     }
    
 `;
