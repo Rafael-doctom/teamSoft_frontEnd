@@ -54,24 +54,24 @@ const Main = () => {
                 <S.FormWrapper>
                     <S.Input
                         type="text"
-                        placeholder="Product Name"
+                        placeholder="Nome da receita"
                         value={productName}
                         onChange={(e) => setProductName(e.target.value)}
                     />
                     <S.Input
-                        placeholder="Product Description"
+                        placeholder="Descrição"
                         value={productDescription}
                         onChange={(e) => setProductDescription(e.target.value)}
                     />
                     <S.Input
                         type="text"
-                        placeholder="Image URL"
+                        placeholder="URL da imagem"
                         value={productImage}
                         onChange={(e) => setProductImage(e.target.value)}
                     />
                     <S.Input
                         type="text"
-                        placeholder="Product Value"
+                        placeholder="Valor"
                         value={productValue}
                         onChange={(e) => setProductValue(e.target.value)}
                     />
@@ -88,9 +88,9 @@ const Main = () => {
                                 <S.Describe>{item.describe}</S.Describe>
                                 <h1>{item.value}</h1>
                                 <Link to={`/produtos/${item.id}`}>
-                                    <S.Button>Ver Produtos {item.id}</S.Button>
+                                    <S.Button>Ver  {item.titleProduct}</S.Button>
                                 </Link>
-                                <button onClick={() => handleDeleteProduct(item.id)}>Excluir Produto</button>
+                                <S.ButtonExluir onClick={() => handleDeleteProduct(item.id)}>Excluir Produto</S.ButtonExluir>
                             </S.Products>
                         ))}
                 </S.Posts>

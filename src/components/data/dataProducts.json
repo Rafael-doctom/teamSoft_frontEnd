@@ -1,74 +1,26 @@
 [
     {
+        "id": 1,
+        "titleProduct": "Bolo de Chocolate",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageProduct": "/products/1.jpg",
+        "value": "R$45,99",
+        "beforeValue": "45,99"
+    },
+    {
         "id": 2,
-        "titleProduct": "X-salada simples",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/2.png",
-        "value": "R$15,99",
-        "beforeValue": "16,99"
+        "titleProduct": "Bolo de Chocolate com Morango",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageProduct": "/products/2.jpg",
+        "value": "R$45,99",
+        "beforeValue": "45,99"
     },
     {
         "id": 3,
-        "titleProduct": "Oferta X-burger ",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/3.png",
-        "value": "R$12,99",
-        "beforeValue": "15,99"
-    },
-    {
-        "id": 4,
-        "titleProduct": "X-frango duplo ",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/4.png",
-        "value": "R$11,99",
-        "beforeValue": "16,45"
-    },
-    {
-        "id": 5,
-        "titleProduct": "Oferta X-burger ",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/3.png",
-        "value": "R$9,99",
-        "beforeValue": "10,99"
-    },
-    {
-        "id": 6,
-        "titleProduct": "Oferta  X-cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/6.png",
-        "value": "R$11,99",
-        "beforeValue": "16,99"
-    },
-    {
-        "id": 7,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/7.png",
-        "value": "R$12,99",
-        "beforeValue": "16,99"
-    },
-    {
-        "id": 8,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/2.png",
-        "value": "R$12,99",
-        "beforeValue": "15,99"
-    },
-    {
-        "id": 9,
-        "titleProduct": "Oferta Picanha Cheddar Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/4.png",
-        "value": "R$14,99",
-        "beforeValue": "16,99"
-    },
-    {
-        "id": 1,
-        "titleProduct": "Oferta X-cheddar Picanha c/ Bacon",
-        "describe": "Hambúrguer de picanha, molho de picanha, cebola crispy, bacon, queijo cheddar, molho cheddar e pão mix de gergelim",
-        "imageProduct": "/products/1.svg",
-        "value": "R$18,99",
-        "beforeValue": "21,99"
+        "titleProduct": "Bolo de Chocolate com Brigadeiro",
+        "describe": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+        "imageProduct": "/products/3.jpg",
+        "value": "R$45,99",
+        "beforeValue": "45,99"
     }
 ]

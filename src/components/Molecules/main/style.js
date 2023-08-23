@@ -145,6 +145,8 @@ export const ImageProduct = styled.img`
     background-size:cover;
     width:18vw;
 
+    border-radius:1rem;
+
     @media (max-width:768px){
         width:30vw;
         height:33vh;
@@ -161,38 +163,111 @@ export const ImageProduct = styled.img`
     }
 `;
 
-export const Button = styled.button`
-    height: 40px;
-    width:18vw;
-    background: #F09035;
-    border:0;
+// export const Button = styled.button`
+//     height: 40px;
+//     width:18vw;
+//     background: #F09035;
+//     border:0;
+//     cursor:pointer;
+//     color:white;
+//     font-weight:700;
+//     font-size:0.90rem;
+//     letter-spacing:0.1rem;
+
+//     &:hover{
+//         background:red;
+//         transition: all .3s ease-out;
+//         -webkit-transition: all .3s ease-out;
+//         -moz-transition: all .3s ease-out;
+//         letter-spacing: 0.02rem;
+//         -webkit-appearance:none;
+//     }
+
+//     @media (max-width:425px){
+//         width:35vw;
+//     }
+
+//     @media (max-width:375px){
+//         width:90vw;
+//     }
+
+//     @media (max-width:320px){
+//         width:120vw;
+//     }
+// `;
+
+
+
+// 
+
+
+export const ButtonExluir = styled.button`
+width:18vw;
+    height:  3vh;
+    max-height:  3vh;
+    border: 1px solid #4D3EFC;
+    border-radius:4px;
+    background: #FFFFFF;
+    padding:7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #656363;
+    text-indent: 8px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    letter-spacing: 0.03rem;
+    -webkit-appearance:none;
+
+    margin: 0 0.25rem;
+    &:focus{
+        border: 1px solid #F09035;
+        outline: 0;
+    }
+
+    @media (max-width:768px){
+        display:none;
+    }
+    
+    margin:0.25rem 0;
     cursor:pointer;
-    color:white;
-    font-weight:700;
-    font-size:0.90rem;
-    letter-spacing:0.1rem;
-
-    &:hover{
-        background:red;
-        transition: all .3s ease-out;
-        -webkit-transition: all .3s ease-out;
-        -moz-transition: all .3s ease-out;
-        letter-spacing: 0.02rem;
-        -webkit-appearance:none;
-    }
-
-    @media (max-width:425px){
-        width:35vw;
-    }
-
-    @media (max-width:375px){
-        width:90vw;
-    }
-
-    @media (max-width:320px){
-        width:120vw;
-    }
+   
 `;
+
+export const Button = styled.button`
+width:18vw;
+    height:  4.7vh;
+    max-eight: 5vh;
+    border: 1px solid #4D3EFC;
+    border-radius:4px;
+    background: #4D3EFC;
+    // padding:7px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-indent: 8px;
+    transition: all .3s ease-out;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    letter-spacing: 0.03rem;
+    -webkit-appearance:none;
+
+    cursor:pointer;
+
+    &:focus{
+        border: 1px solid #F09035;
+        outline: 0;
+    }
+
+    @media (max-width:768px){
+        display:none;
+    }
+   
+`;
+
+
 
 export const Input = styled.input`
     width: 10vw;

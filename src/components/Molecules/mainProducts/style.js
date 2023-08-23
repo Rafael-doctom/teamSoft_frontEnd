@@ -101,6 +101,9 @@ margin-left:17px;
 export const ImageProduct = styled.img`
   width: 480px;
   height: 380px;
+
+ 
+
   @media (max-width:768px){
     width: 600px;
     height: 450px;
