@@ -58,8 +58,8 @@ export const Nav = styled.nav`
 
 
 export const Logo = styled.img`
-    width: 221.91px;
-    height: 70.2px;
+    width: 35%;
+    height:100%;
     background-size:cover;
 
     @media (max-width:768px){
@@ -141,13 +141,12 @@ export const Adress = styled.p`
 
 export const SearchProducts = styled.div`
     margin-left: 1.40vw;
-
 `;
 
 export const Input = styled.input`
     width: 20.7vw;
-    height:  8.15vh;
-    border: 1px solid #ED3237;
+    height:  4vh;
+    border: 1px solid #4D3EFC;
     border-radius:4px;
     background: #FFFFFF;
     padding:7px;
